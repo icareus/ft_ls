@@ -2,9 +2,7 @@
 
 int		main(int ac, char **av) {
 	(void) av;
-	if (ac == 1)
-	{
-		ft_puterr("No arguments given !");
-	}
-	ft_printf("Lorem Ipsum\n");
+	(void) ac;
+	ft_printf("This is a placeholder main file.\n");
+	ft_printf("For now, it doesn't do shit.\n");
 }
